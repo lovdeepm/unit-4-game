@@ -12,12 +12,12 @@
     <title>Crystal Collector!</title>
 </head>
 <body>
-    <div class="container">
-    <div id="crystalhead">
+
+    <div id="header">
     <header>CrystalsCollector!</header>
     </div>
 
-    <div id="paragraph">
+    <div id="instructions">
         <p> You will be given a random number at the start of the game.</p>
         <br>
         <p>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
@@ -31,48 +31,33 @@
     </div>
 
 
-    <div id="scoreboard">
-        <div class="randomnumber">
-
-        </div>
-        <div class="winlossbox">
-            <p>Wins: </p>
-                <p class="win">0</p>
-            <p>Losses</p>
-                <p class="loss">0</p>
+    <div id="numbertomatch">
+        <h3> Match This Number:
+        <span id="randomnumber">
+            </h3>
+        </span>
+        <div class="winsAndLosses">
+            <h2>Wins: </h2>
+                <span class="win"></span>
+            <h2>Losses:</h2>
+                <span class="loss"></span>
         </div>
     </div>
 
     <div id="crystals">
-        <div type="button"  class="crystal1" value="1">
-            <img src="assets/images/crystal.png" alt="Crystal 1">
+            <img src="assets/images/crystal.png" class="crystalimage" id="crystal1" alt="Crystal 1">
+            <img src="assets/images/crystal2.jpg" class="crystalimag" id="crystal2" alt="Crystal 2">
+            <img src="assets/images/crystal3.jpg" class="crystalimag" id="crystal3" alt="Crystal 3">
+            <img src="assets/images/crystal4.jpg" class="crystalimag" id="crystal4" alt="Crystal 4">
         </div>
 
-        <div type="button"  class="crystal2" value="2">
-                <img src="assets/images/crystal2.jpg" alt="Crystal 2">
-        </div>
-        
-        <div type="button"  class="crystal3" value="3">
-                    <img src="assets/images/crystal3.jpg" alt="Crystal 3">
-        </div>
 
-        <div type="button"  class="crystal4" value="4">
-                <img src="assets/images/crystal4.jpg" alt="Crystal 4">
-        </div>
-
+    <div id="usertotal">
+                <h3>Your total score is: 
+                <span id="finaltotal"></span>
+            </h3>
     </div>
 
-
-    <div id="currentscoreboard">
-            <div class="score">
-                <p>Your total score is: </p>
-            </div>
-
-            <div class="scoredisplay">
-                <p class="showscore"></p>
-            </div>
-    </div>
-</div>
 
 
 

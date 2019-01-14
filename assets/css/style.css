@@ -1,44 +1,50 @@
-#crystalhead {
-    background-color: orange;
-    border: 1px solid orange;
+#header {
     font-size: 50px;
-    color: white;
-    margin: 10px 30px 10px 20px;
-    padding: 30px;
-    float: left;
+    color: navy;
+    width: 50%;
 }
 
 body {
     background-image: url(../images/backround.jpg)
 }
-#paragraph {
-    float: left;
-    border: 1px solid lightgoldenrodyellow;
-    color: green;
+div {
+    background-color: white;
+    margin: 10px;
+    width: 25%;
+    border: solid black 2px;
+}
+#instructions {
+    color: black;
     font-size: 20px;
-    background-color: lightgoldenrodyellow;
-    margin: 20px 800px 10px 20px;
-    padding: 40px 80px 130px 30px;
+    background-color: white;
     text-align: left;
+    width: 50%;
 }
 
-#scoreboard {
-    float: right;
+#numbertomatch {
+    float: left;
     font-size: 20px;
-    border: 2px aqua solid;
-    background-color: aqua;
 }
 
 .randomnumber {
-    border: aqua solid 2px;
     float: left;
+    width: 20%;
+    height: 60px;
 }
 
+.winsAndLosses{
+    float: left;
+    width: 20%;
+    height: 90px;
+}
 #crystals {
     float: left;
-    border: 2px black solid;
+    clear: both
 }
 
-#scoreboard {
-    border: 2px solid black;
+.userTotal {
+    width: 20%;
+    height: 60px;
+    float: left;
 }
+
